@@ -1,0 +1,413 @@
+<html>
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+</head>
+
+<body class="d-flex flex-column min-vh-100 bg-light">  
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#"><img
+                                src="https://www.udemy.com/staticx/udemy/images/v7/logo-udemy.svg" height="50"
+                                width="70"></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+
+
+                        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link" href="#" id="navbarDropdown" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        Kategoriler
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="#">Yazılım Geliştirme</a></li>
+                                        <li><a class="dropdown-item" href="#">İşletme</a></li>
+                                        <li><a class="dropdown-item" href="#">Finana ve Muhasebe</a></li>
+                                    </ul>
+                                </li>
+
+                                <form class="d-flex">
+                                    <input class="form-control me-3 rounded-pill" type="search" placeholder="Dilediğiniz şeyi arayın.."
+                                        aria-label="Search" style="width: 525;">
+                                </form>
+
+
+
+                            </ul>
+                        </div>
+
+
+
+
+                        <div class="nav-item dropdown">
+                            <a class="nav-link active" aria-current="page" href="#" style="color: black; font-size: smaller;">Udemy'de
+                                Eğitim verin</a>
+                        </div>
+
+                        <div class="d-flex justify-content-end" id="navbarSupportedContent">
+                            <a class="nav-link active" href="#" id="dropdown09" data-bs-toggle="dropdown"
+                                aria-expanded="false" style="font-size: smaller;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill=""
+                                    class="bi bi-cart" viewBox="0 0 16 16">
+                                    <path
+                                        d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+                                </svg>
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="dropdown09">
+                                <li><a class="dropdown-item disabled" href="#" style="font-size: smaller;">Sepetiniz boş</a>
+                                </li>
+                                <li><a class="dropdown-item text-primary" href="#" style="font-size: smaller;">Alışverişe
+                                        devam et</a></li>
+                            </ul>
+                        </div>
+
+
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+
+                            <button class="btn btn-primary me-md-2" type="button"
+                                style="background-color: white; color: black;">Oturum Aç</button>
+                            <button class="btn btn-primary" type="button"
+                                style="background-color: black; color: white;">Kaydol</button>
+
+                            <button type="button" class="btn mx-2 btn-outline-dark rounded-0 pe-3 mx-1 my-2 me-2 py-2" style="float: right;">
+                                <i class="bi bi-globe py-3 my-3 mt-2 pt-2"></i>
+                            </button>
+                        </div>
+
+
+                    </div>
+
+
+                </nav>
+
+            </div>
+        
+        </div>
+    
+        <div class="row">
+            <div class="col">
+                <div class="card bg-dark text-white">
+                    <img src="https://img-c.udemycdn.com/notices/web_banner/image_udlite/d93015d2-3ec1-48cd-97c6-60eace42b20c.jpg"
+                        class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                        <!-- alttaki satir cardın uzunlugunu ayarladık -->
+                        <div class="card" style="width: 26rem; height: 300;">
+                            <div class="card-body">
+                                <h2 class="card-title" style="color: black;">İndirim Sona eriyor</h2>
+                                <p class="card-text" style="color: black;">Sadece ₺27,99'dan başlayan kurslar almak için son gün.</p>
+                                <form class="d-flex">
+                                    <input class="form-control me-2" type="search" placeholder="Search"
+                                        aria-label="Search" style="width: 525;">
+                                    <button class="btn btn-outline-success" type="submit">Search</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><br>
+        
+
+    </div>
+
+
+        
+    <div class="container">
+       <div class="row">
+        <div class="col-sm-3">
+            <h4 style="font-weight: bold;" class="card-title mx-10" style="color: black;">Kapsamlı kurs seçkisi</h4>
+            <p class="card-title" style="color: black;">Her ay yayınlanan yeni kurslarla 155.000+ online video kurs arasından seçiminizi yapın</p><br>
+        </div>
+
+       </div>
+
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#" style="color: black;">Python</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#" style="color: black;">Excel</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" style="color: black;">Web Geliştirme</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#" tabindex="-1" aria-disabled="true" style="color: black;">Java
+                            Script</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#" style="color: black;">Veri Bilimi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" style="color: black;">AWS Sertifikasyonu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" style="color: black;">Çizim</a>
+                    </li>
+                </ul>
+            </div>
+        </div><br>
+
+
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="card" style="width: 14rem;">
+                    <img src="https://img-c.udemycdn.com/course/240x135/1235124_7c5f_6.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">(40+ Saat) Python | Sıfırdan İleri Seviye Programlama (2020)</h5>
+                      <p class="card-text">Mustafa Murat Coşkun</p>
+                      <p class="card-text">₺27.99 <del> ₺219.99 </del></p>
+                      
+                    </div>
+                  </div>
+              </div>
+              <div class="col">
+                <div class="card" style="width: 14rem;">
+                    <img src="https://img-c.udemycdn.com/course/240x135/2496622_433f.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">(100+ Saat) Aranan Programcı Olma Kamp Kursu| Python,Java,C#</h5>
+                        <p class="card-text">Engin Demiroğ</p>
+                        <p class="card-text">₺27.99 <del> ₺219.99 </del></p>
+                    </div>
+                  </div>
+              </div>
+              <div class="col">
+                <div class="card" style="width: 14rem;">
+                    <img src="https://img-c.udemycdn.com/course/240x135/2310884_04cd_6.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">(50 Saat) Python A-Z™: Veri Bilimi ve Machine Learning</h5>
+                        <p class="card-text">Mustafa Vahit Keskin</p>
+                        <p class="card-text">₺27.99 <del> ₺219.99 </del></p>
+                    </div>
+                  </div>
+              </div>
+              <div class="col">
+                <div class="card" style="width: 14rem;">
+                    <img src="https://img-c.udemycdn.com/course/240x135/629302_8a2d_2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Learn Python Programming Masterclass</h5>
+                        <p class="card-text">Tim Buchalka,Jean-Paul Roberts..</p>
+                        <p class="card-text">₺27.99 <del> ₺219.99 </del></p>
+                    </div>
+                  </div>
+              </div>
+              <div class="col">
+                <div class="card" style="width: 14rem;">
+                    <img src="https://img-c.udemycdn.com/course/240x135/1586464_cae5_3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Python ile Makine Öğrenmesi</h5>
+                        <p class="card-text">Prof.Dr.Şadi Evren Şeker</p>
+                        <p class="card-text">₺27.99 <del> ₺219.99 </del></p>
+                    </div>
+                  </div>
+            </div>
+    
+    
+        </div>
+    
+    </div><br>
+    <div class="container">
+        <div class="row">
+         <div class="col-sm-3">
+             <h5 style="font-weight: bold;" class="card-title mx-20" style="color: black;">Öğrenciler şu anda bunları görüntülüyor:</h5>
+             
+         </div>
+ 
+        </div>
+ 
+     </div>
+
+     <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="card" style="width: 14rem;">
+                    <img src="https://img-c.udemycdn.com/course/240x135/1565838_e54e_12.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">The Complete 2021 Web Development Bootcamp</h5>
+                      <p class="card-text">Dr.Angela Yu</p>
+                      <p class="card-text">₺409,99</p>
+                      
+                    </div>
+                  </div>
+              </div>
+              <div class="col">
+                <div class="card" style="width: 14rem;">
+                    <img src="https://img-c.udemycdn.com/course/240x135/793796_0e89.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Microsoft Excel - Excel from Beginner to Advanced</h5>
+                        <p class="card-text">Kyle Pew</p>
+                        <p class="card-text">₺309,99</p>
+                    </div>
+                  </div>
+              </div>
+              <div class="col">
+                <div class="card" style="width: 14rem;">
+                    <img src="https://img-c.udemycdn.com/course/240x135/1643044_e281.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Graphic Design Masterclass - Learn GREAT Design</h5>
+                        <p class="card-text">Lindsay Marsh</p>
+                        <p class="card-text">₺399,99</p>
+                    </div>
+                  </div>
+              </div>
+              <div class="col">
+                <div class="card" style="width: 14rem;">
+                    <img src="https://img-c.udemycdn.com/course/240x135/614772_233b_9.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">The Complete Cyber Security Course : Hackers Exposed!</h5>
+                        <p class="card-text">Nathan House</p>
+                        <p class="card-text">₺249,99</p>
+                    </div>
+                  </div>
+              </div>
+              <div class="col">
+                <div class="card" style="width: 14rem;">
+                    <img src="https://img-c.udemycdn.com/course/240x135/914296_3670_8.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">The Complete Digital Marketing Course - 12 Courses in 1</h5>
+                        <p class="card-text">Rob Percival</p>
+                        <p class="card-text">₺409,99</p>
+                    </div>
+                  </div>
+            </div>
+    
+    
+        </div>
+    
+    </div><br>
+    <div class="container">
+        <div class="row">
+         <div class="col-sm-3">
+             <h5 style="font-weight: bold;" class="card-title mx-10" style="color: black;">En popüler kategoriler</h5>
+             
+         </div>
+ 
+        </div>
+ 
+     </div>
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col">
+                <img src="https://s.udemycdn.com/home/top-categories/lohp-category-design-v2.jpg" class="img-thumbnail" alt="...">
+                <h5 class="card-title" style="color: black;">Tasarım</h5>
+
+            </div>
+
+            <div class="col">
+                <img src="https://s.udemycdn.com/home/top-categories/lohp-category-development-v2.jpg" class="img-thumbnail" alt="...">
+                <h5 class="card-title" style="color: black;">Yazılım Geliştirme</h5>
+                
+            </div>
+
+            <div class="col">
+                <img src="https://s.udemycdn.com/home/top-categories/lohp-category-marketing-v2.jpg" class="img-thumbnail" alt="...">
+                <h5 class="card-title" style="color: black;">Pazarlama</h5>
+                
+            </div>
+
+            <div class="col">
+                <img src="https://s.udemycdn.com/home/top-categories/lohp-category-it-and-software-v2.jpg" class="img-thumbnail" alt="...">
+                <h5 class="card-title" style="color: black;">BT ve Yazılım</h5>
+                
+            </div>
+                
+
+        </div> <br>
+
+        
+        <div class="row"> 
+            <div class="col">
+                <img src="https://s.udemycdn.com/home/top-categories/lohp-category-design-v2.jpg" class="img-thumbnail width:10px;" alt="...">
+                <h5 class="card-title" style="color: black;">Kişisel Gelişim</h5>
+                
+            </div>
+            <div class="col">
+                <img src="https://s.udemycdn.com/home/top-categories/lohp-category-development-v2.jpg" class="img-thumbnail" alt="...">
+                <h5 class="card-title" style="color: black;">İşletme</h5>
+                
+            </div>
+            <div class="col">
+                <img src="https://s.udemycdn.com/home/top-categories/lohp-category-marketing-v2.jpg" class="img-thumbnail" alt="...">
+                <h5 class="card-title" style="color: black;">Fotoğrafçılık</h5>
+                
+            </div>
+            <div class="col">
+                <img src="https://s.udemycdn.com/home/top-categories/lohp-category-it-and-software-v2.jpg" class="img-thumbnail" alt="...">
+                <h5 class="card-title" style="color: black;">Müzik</h5>
+                
+            </div>
+
+
+
+        </div>
+            
+
+    </div><br>
+    <footer class="footer mt-auto py-4 px-5" style="background: #000;">
+        <div class="row mb-5">
+            <div class="col-md-3 d-flex flex-column">
+                <a href="" class="text-light text-decoration-none" style="font-size: small;">Udemy Business</a>
+                <a href="" class="text-light text-decoration-none" style="font-size: small;">Udemy'de Eğitim Verin</a>
+                <a href="" class="text-light text-decoration-none" style="font-size: small;">Uygulamayı Edinin</a>
+                <a href="" class="text-light text-decoration-none" style="font-size: small;">Hakkımızda</a>
+                <a href="" class="text-light text-decoration-none" style="font-size: small;">İletişim</a>
+            </div>
+
+            <div class="col-md-3 d-flex flex-column">
+                <a href="" class="text-light text-decoration-none" style="font-size: small;">Kariyer</a>
+                <a href="" class="text-light text-decoration-none" style="font-size: small;">Blog</a>
+                <a href="" class="text-light text-decoration-none" style="font-size: small;">Yardım ve Destek</a>
+                <a href="" class="text-light text-decoration-none" style="font-size: small;">İş Ortaklığı</a>
+            </div>
+
+            <div class="col-md-3 d-flex flex-column">
+                <a href="" class="text-light text-decoration-none" style="font-size: small;">Koşullar</a>
+                <a href="" class="text-light text-decoration-none" style="font-size: small;">Gizlilik politikası</a>
+                <a href="" class="text-light text-decoration-none" style="font-size: small;">Site haritası</a>
+            </div>
+
+            <div class="col-md-3">
+                <button type="button" class="btn btn-outline-light rounded-0 pe-5" style="float: right;">
+                    <i class="bi bi-globe"></i> Türkçe</button>
+            </div>
+        </div>
+
+        <div class="d-flex justify-content-between my-3">
+            <a class="navbar-brand" href="#"><img
+                    src="https://www.udemy.com/staticx/udemy/images/v7/logo-udemy-inverted.svg" alt="" width="91"
+                    srcset="">
+            </a>
+            <p class="text-light" style="font-size: x-small;">
+                © 2021 Udemy, Inc.
+            </p>
+        </div>
+    </footer>
+    
+</body>
+
+</html>
